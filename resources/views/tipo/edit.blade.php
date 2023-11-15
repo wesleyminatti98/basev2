@@ -49,7 +49,7 @@
                         iziToast.success({
                             message: d.message,
                             onClosed: function(){
-                                document.location = '{{ route('tipo.index') }}';
+                                document.location = '{{ route("tipo.index") }}';
                             }
                         });
 
